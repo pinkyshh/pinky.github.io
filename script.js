@@ -57,6 +57,10 @@ function renderDataTable() {
 $(document).ready(function () {
     let count = 0;
     console.log("Hello!")
+    let d = new Date()
+    let dateStr = `${d.getDate}-${(d.getMonth()+1)}-${d.getFullYear()}`;
+    $('#currentDate').html(dateStr)
+    
     renderDataTable()
     $('#btnAdd').click(function () {
         console.log("Clicked!", count)
