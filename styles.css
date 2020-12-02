@@ -1,7 +1,15 @@
 table {
     border-spacing: 0px;
     border-collapse: collapse;
+    width: 100%;
 }
+
+th {
+    background-color: rgb(184, 212, 231);
+    color: darkblue;
+    border: solid #000000 1px;
+}
+
 td {
     vertical-align: top;
 }
@@ -10,74 +18,45 @@ td {
     border-top: solid #000 1px;
 }
 
-#total-due {
+#bottom-line {
     border-bottom: solid #000 1px;
 }
 
-th {
-    background-color: #eeeeee;
-    color: navy;
-    border: solid #000 1px;
+.data {
+    border-left: solid #000000 1px;
+    border-right: solid #000000 1px;
 }
 
-.data {
-    border-left: solid #000 1px;
-    border-right: solid #000 1px;
+.data2 {
+    border-right: solid #000000 1px;
 }
+
+p.i {
+    font-style: italic;
+  }
 
 .r {
     text-align: right;
 }
 
-.center{
+.cen {
     text-align: center;
 }
 
-.q{
+.center {
+    margin: auto;
+  }
+
+.colo {
     font-weight: bold;
-
+    color: darkblue;
 }
 
-.font{
-    font-size: x-large;
-    padding-left: 25%;
+.thick {
+    font-weight: bold;
 }
 
-.space{
-    margin-top: 20px;
+.tab { 
+    display:inline-block; 
+    margin-left: 40px; 
 }
-
-.c{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.d{
-    padding-left: 70px ;
-}
-
-.e{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.f{
-    padding-bottom: 5px;
-}
-
-.gap{
-    padding-right: 235px;
-}
-
-.gap2{
-    padding-right: 1800px;
-}
-
-.floatLeft {width :35%; float: left;}
-.floatRight {width :65%; float: right;}
-.container {overflow:hidden;}
-
-.center2{
-    width: 40%;
-}
-
