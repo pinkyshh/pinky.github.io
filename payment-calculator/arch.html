@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Nature</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="product">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="css/style.css">-->
+
+<!-- Product css -->
+<link rel="stylesheet" href="css/product.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+  <div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="nature.html">Nature Art</a>
+    <a href="#arch.html">Urban Architecture</a>
+    <a href="stone.html">Stone Art</a>
+  </div>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="spinner-rotate"></span>
+     </div>
+</div> 
+
+<!-- ABOUT SECTION -->
+<section id="about" class="parallax-section">
+     <div class="container">
+         <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="section-title">
+                <h1>Urban Architecture</h1>
+              </div>
+            </div>
+               <div class="col-md-4 col-sm-4">
+                    <img src="images/monument-1.jpg" class="img-responsive" alt="church image">
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="about-thumb">
+                         <div class="section-title">
+                              <h3>La Basilique</h3>
+                              <p>Inspired by the 'la basilique du sacré-coeur, located in Paris, France, this masterpiece is made in black and white sand with a hint of gold leaf.</p>
+                              <h3>Size</h3>
+                              <p>202 x 135 cm</p>
+                              <h3>Price</h3> 
+                              <p>500,000 THB</p><a href="#price" class="arrow-btn"><i class="fa fa-angle-double-down"></i></a>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-md-12 col-sm-12">
+               <div class="col-md-4 col-sm-4">
+                <img src="images/monument-2.jpg" class="img-responsive" alt="temple image">
+           </div>
+
+           <div class="col-md-6 col-sm-6">
+                <div class="about-thumb">
+                     <div class="section-title">
+                          <h3>Swayambhunath Stupa</h3>
+                          <p>The very ancient Stupa rests on a hillock in the Kathmandu Valley of Nepal. This piece is also made in white and black sand and also some gold leaf.</p>
+                          <h3>Size</h3>
+                          <p>150 x 150 cm</p>
+                          <h3>Price</h3> 
+                          <p>450,000 THB</p><a href="#price" class="arrow-btn"><i class="fa fa-angle-double-down"></i></a></h3>
+                     </div>
+                </div>
+           </div>
+          </div>
+          </div>
+     </div>
+</section>
+
+
+<!-- PRICE SECTION -->
+<section id="price"></section>
+    <div class="container">
+        <div class="price-box">
+          <div class="row">
+            <div class="col-sm-6">
+                  <form class="form-horizontal form-pricing" role="form">
+  
+                    <div class="price-slider">
+                      <h4 class="great">Amount</h4>
+                      <span>Minimum $100K is required</span>
+                      <div class="col-sm-12">
+                        <div id="slider_amirol"></div>
+                      </div>
+                    </div>
+                    <div class="price-slider">
+                      <h4 class="great">Duration</h4>
+                      <span>Please choose one</span>
+                      <div class="btn-group btn-group-justified">
+                        <div class="btn-group">
+                          <button type="button" class="btn button5 btn-block month active-month selected-month" id='12month'>12 Months</button>
+                        </div>
+                        <div class="btn-group">
+                          <button type="button" class="btn button5 btn-block month" id='24month'>24 Months</button>
+                        </div>
+                        <div class="btn-group">
+                          <button type="button" class="btn button5 btn-block month" id='36month'>36 Months</button>
+                        </div>
+                        <div class="btn-group">
+                          <button type="button" class="btn button5 btn-block month" id='48month'>48 Months</button>
+                        </div>
+                        <div class="btn-group">
+                          <button type="button" class="btn button5 btn-block month" id='60month'>60 Months</button>
+                        </div>
+                        <div class="btn-group">
+                          <button type="button" class="btn button5 btn-block month" id='72month'>72 Months</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="price-slider">
+                      <h4 class="great">Interest</h4>
+                      <span>Please choose one</span>
+                        <input name="sliderVal" type="hidden" id="sliderVal" value='0' readonly="readonly" />
+                  <input name="month" type="hidden" id="month" value='24month' readonly="readonly" />
+                  <input name="term" type="hidden" id="term" value='0' readonly="readonly" />
+                        <div class="btn-group btn-group-justified">
+                          <div class="btn-group">
+                      <button type="button" class="btn button5 btn-block term active-term selected-term" id='0'>0%</button>
+                    </div>
+                          <div class="btn-group">
+                            <button type="button" class="btn button5 btn-block term" id='4'>4%</button>
+                    </div>
+                          <div class="btn-group">
+                            <button type="button" class="btn button5 btn-block term" id='8'>8%</button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="price-form">
+
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <label for="amount_amirol" class="control-label">Monthly Interest (฿): </label>
+                            <span class="help-text">Amount of interest charged per month</span>
+                          </div>
+                          <div class="col-sm-6">
+                              <input type="hidden" id="amount_amirol" class="form-control">
+                              <!-- <p class="price lead" id="total12"></p> -->
+                              <input class="price lead" name="totalprice12" type="text" id="total12" disabled="disabled" style="" />
+                          </div>
+                      </div>
+                      </div>
+    
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <label for="amount_amirol" class="control-label">Total Payment / Month (฿): </label>
+                            <span class="help-text">Amount that you need to pay each month</span>
+                          </div>
+                          <div class="col-sm-6">
+                              <input type="hidden" id="amount_amirol" class="form-control">
+                              <!-- <p class="price lead" id="total52"></p> -->
+                              <input class="price lead" name="finalTotal" type="text" id="finalTotal" disabled="disabled" style="" />
+                          </div>
+                      </div>
+                      </div>
+                      <div style="margin-top:30px"></div>
+                      <hr class="style">
+  
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                          <button type="submit" class="btn button5 btn-block">Proceed <span class="glyphicon glyphicon-chevron-right"></span></button>
+                        </div>
+                    </div>
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                            <img src="images/payment.jpg" class="img-responsive payment" />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+          </div>
+            </div>
+        </div>
+</section>
+
+<!--MORE SECTION-->
+<section id="about" class="parallax-section">
+  <div class="container">
+       <div class="row">
+          </div>
+       </div>
+  </div>
+</section>
+
+<!-- WORK SECTION -->
+<section id="work" class="parallax-section">
+  <div class="container">
+       <div class="row">
+
+            <div class="col-md-12 col-sm-12">
+                 <!-- SECTION TITLE -->
+                 <div class="section-title">
+                      <h2> Other Collections</h2>
+                 </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                 <!-- WORK THUMB -->
+                 <div class="work-thumb">
+                      <a href="nature.html">
+                           <img src="images/work-1.jpg" class="img-responsive" alt="nature Arts">
+                      </a>
+                 </div>
+                 <h4>Nature Art</h4>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                 <!-- WORK THUMB -->
+                 <div class="work-thumb">
+                      <a href="stone.html">
+                           <img src="images/work-3.jpg" class="img-responsive" alt="Stone Art">
+                      </a>
+                 </div>
+                 <h4>Stones</h4>
+            </div>
+       </div>
+  </div>
+</section>
+
+<!--MORE SECTION-->
+<section id="about" class="parallax-section">
+  <div class="container">
+       <div class="row">
+          </div>
+       </div>
+  </div>
+</section>
+
+
+<!-- FOOTER SECTION -->
+<footer id="footer" class="parallax-section">
+ <div class="container">
+     <div class="row">
+
+            <div class="col-md-4 col-sm-4">
+                 <h4>WEB APPLICATION</h4>
+                 <p>Assignment 1</p>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                 <p class="copyright-text"> BY: Pinky Shahi 6135205</p>
+            </div>
+       </div>
+  </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/custom.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
